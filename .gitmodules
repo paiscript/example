@@ -16,3 +16,6 @@
 [submodule "pai_plugins/phperror"]
 	path = pai_plugins/phperror
 	url = git@git.tsys.no:/christian/pai/plugins/phperror.git
+[submodule "pai_plugins/piwik"]
+	path = pai_plugins/piwik
+	url = git@git.tsys.no:/christian/pai/plugins/piwik.git
