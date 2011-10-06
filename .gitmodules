@@ -13,3 +13,6 @@
 [submodule "pai_plugins/menu"]
 	path = pai_plugins/menu
 	url = git@git.tsys.no:/christian/pai/plugins/menu.git
+[submodule "pai_plugins/phperror"]
+	path = pai_plugins/phperror
+	url = git@git.tsys.no:/christian/pai/plugins/phperror.git
