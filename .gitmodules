@@ -10,3 +10,6 @@
 [submodule "pai_plugins/locale"]
 	path = pai_plugins/locale
 	url = git@git.tsys.no:/christian/pai/plugins/locale.git
+[submodule "pai_plugins/menu"]
+	path = pai_plugins/menu
+	url = git@git.tsys.no:/christian/pai/plugins/menu.git
