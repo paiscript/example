@@ -1,3 +1,6 @@
 [submodule "pai"]
 	path = pai
 	url = git@git.tsys.no:/christian/pai
+[submodule "pai_plugins/analytics"]
+	path = pai_plugins/analytics
+	url = git@git.tsys.no:/christian/pai/plugins/analytics.git
