@@ -1,0 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PAI\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-04 03:03+0200\n"
+"PO-Revision-Date: 2011-07-04 03:09+0100\n"
+"Last-Translator: Christian Tellnes <christian@tellnes.no>\n"
+"Language-Team: PAI <christian@tellnes.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Norwegian Bokmal\n"
+
+#: content/page/locale.php:1
+msgid "PAI Locale"
+msgstr "PAI språk"
+
+#: content/page/locale.php:3
+msgid "PAI Locale allows you to use the PAI in several languages."
+msgstr "PAI språk lar deg bruke PAI med flere språk."
+

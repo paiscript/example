@@ -1,0 +1,51 @@
+{
+	"404": {
+		"title": "404 - Fant ikke siden",
+		"static": true
+	},
+
+	"index": {
+		"title": "Standar PAI forside",
+		"description": "Eksempel på beskrivelse",
+		"keywords": "søkeord,er,nyttige,å,ha",
+		"menu": {
+			"main": {
+				"order": 1,
+				"text": "Hjem",
+				"test": true
+			}
+		}
+	},
+
+	"sitemap": {
+		"title": "Sitemap",
+		"menu-main-item": "subpage"
+	},
+
+
+	"subpage": {
+		"title": "Subpage Index",
+		"static": "true",
+		"description": "Denne siden har også fått beskrivelse",
+		"menu-main": [2, "Underside"]
+	},
+
+	"subpage/example": {
+		"title": "Subpage Example",
+		"menu-main-parent": "subpage"
+	},
+	
+	"test": {
+		"title": "test page",
+		"menu-main-order": 1
+	},
+	
+	"form": {
+		"title": "Form",
+		"menu-main-order": 1
+	},
+	
+	"html5": {
+		"title": "HTML5 test"
+	}
+}
