@@ -1,0 +1,3 @@
+[submodule "pai"]
+	path = pai
+	url = git@git.tsys.no:/christian/pai
