@@ -7,3 +7,6 @@
 [submodule "pai_plugins/html5shiv"]
 	path = pai_plugins/html5shiv
 	url = git@git.tsys.no:/christian/pai/plugins/html5shiv.git
+[submodule "pai_plugins/locale"]
+	path = pai_plugins/locale
+	url = git@git.tsys.no:/christian/pai/plugins/locale.git
