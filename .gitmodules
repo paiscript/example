@@ -4,3 +4,6 @@
 [submodule "pai_plugins/analytics"]
 	path = pai_plugins/analytics
 	url = git@git.tsys.no:/christian/pai/plugins/analytics.git
+[submodule "pai_plugins/html5shiv"]
+	path = pai_plugins/html5shiv
+	url = git@git.tsys.no:/christian/pai/plugins/html5shiv.git
