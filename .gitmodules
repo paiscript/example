@@ -19,3 +19,6 @@
 [submodule "pai_plugins/piwik"]
 	path = pai_plugins/piwik
 	url = git@git.tsys.no:/christian/pai/plugins/piwik.git
+[submodule "pai_plugins/auth"]
+	path = pai_plugins/auth
+	url = git@git.tsys.no:/christian/pai/plugins/auth.git
