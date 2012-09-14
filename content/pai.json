@@ -39,7 +39,11 @@
     "locale": {
       "status": true,
       "available": ["en", "no"],
-      "default": "en"
+      "default": "en",
+      "pageinfo": [
+        "title",
+        "description"
+      ]
     },
     "menu": {
       "status": true,
