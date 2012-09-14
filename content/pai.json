@@ -1,68 +1,68 @@
 {
-	"ajax": {
-		"useSourceFiles1": true,
-		"framework": "prototype",
-		"framework": "jquery"
-	},
-	"content": {
-		"header": {
-			"type": "pagevar",
-			"name": "title",
-			"id": "header"
-		},
-		"page": {
-			"type": "path",
-			"default": "404"
-		},
-		"sidebar": {
-			"type": "map",
-			"default": "default",
-			"map": {
-				"test": ["test"],
-				"default": ["index"]
-			},
-			"exclude": ["form"]
-		},
-		"intervaltest": {
-			"type": "filter",
-			"interval": {
-				"pageChange": false,
-				"frequency": 10,
-				"decay": 1
-			}
-		},
-		"breadcrumb": {
-			"type": "filter"
-		}
-	},
-	"plugins": {
-		"locale": {
-			"status": true,
-			"available": ["en", "no"],
-			"default": "en"
-		},
-		"menu": {
-			"status": true,
-			"currentClass": "current",
-			"list": {
-				"main": {
-					"currentClass": "current"
-				}
-			}
-		},
-		"piwik": {
-			"status": true,
-			"baseUrl": "//piwik.tsys.no/",
-			"siteId": 6
-		},
-		"phperror": true,
-		"analytics": {
-			"status": false,
-			"account": "UA-XXXXX-X",
-			"anonymizeIp": false
-		},
-		"html5shiv": {
-			"status": true
-		}
-	}
+  "ajax": {
+    "useSourceFiles1": true,
+    "framework": "prototype",
+    "framework": "jquery"
+  },
+  "content": {
+    "header": {
+      "type": "pagevar",
+      "name": "title",
+      "id": "header"
+    },
+    "page": {
+      "type": "path",
+      "default": "404"
+    },
+    "sidebar": {
+      "type": "map",
+      "default": "default",
+      "map": {
+        "test": ["test"],
+        "default": ["index"]
+      },
+      "exclude": ["form"]
+    },
+    "intervaltest": {
+      "type": "filter",
+      "interval": {
+        "pageChange": false,
+        "frequency": 10,
+        "decay": 1
+      }
+    },
+    "breadcrumb": {
+      "type": "filter"
+    }
+  },
+  "plugins": {
+    "locale": {
+      "status": true,
+      "available": ["en", "no"],
+      "default": "en"
+    },
+    "menu": {
+      "status": true,
+      "currentClass": "current",
+      "list": {
+        "main": {
+          "currentClass": "current"
+        }
+      }
+    },
+    "piwik": {
+      "status": true,
+      "baseUrl": "//piwik.tsys.no/",
+      "siteId": 6
+    },
+    "phperror": true,
+    "analytics": {
+      "status": false,
+      "account": "UA-XXXXX-X",
+      "anonymizeIp": false
+    },
+    "html5shiv": {
+      "status": true
+    }
+  }
 }
