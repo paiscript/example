@@ -11,41 +11,27 @@
 		"menu": {
 			"main": {
 				"order": 1,
-				"text": "Hjem",
-				"test": true
+				"text": "Hjem"
 			}
 		}
 	},
-
-	"sitemap": {
-		"title": "Sitemap",
-		"menu-main-item": "subpage"
-	},
-
-
+	
 	"subpage": {
-		"title": "Subpage Index",
-		"static": "true",
-		"description": "Denne siden har også fått beskrivelse",
-		"menu-main": [2, "Underside"]
-	},
-
-	"subpage/example": {
-		"title": "Subpage Example",
-		"menu-main-parent": "subpage"
-	},
-	
-	"test": {
-		"title": "test page",
-		"menu-main-order": 1
+  	"title": "Subpage",
+  	"description": "",
+  	"keywords": "",
+  	"menu": {
+			"main": {
+				"order": 2,
+				"text": "Subpage"
+			}
+		}
 	},
 	
-	"form": {
-		"title": "Form",
-		"menu-main-order": 1
-	},
-	
-	"html5": {
-		"title": "HTML5 test"
+	"subpage/test": {
+  	"title": "Subpage",
+  	"description": "",
+  	"keywords": "",
+  	"menu-main-parent": "subpage"
 	}
 }

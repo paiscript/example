@@ -1,7 +1,7 @@
 {
   "ajax": {
-    "useSourceFiles1": true,
-    "framework": "prototype",
+    "useSourceFiles": true,
+    "framework1": "prototype",
     "framework": "jquery"
   },
   "content": {
@@ -12,7 +12,8 @@
     },
     "page": {
       "type": "path",
-      "default": "404"
+      "default": "404",
+      "id": "content"
     },
     "sidebar": {
       "type": "map",
@@ -47,10 +48,12 @@
     },
     "menu": {
       "status": true,
-      "currentClass": "current",
+      "currentClass": "active",
+      "currentChildClass": "active",
+      "ulclass": "nav navbar-nav",
       "list": {
         "main": {
-          "currentClass": "current"
+          "currentClass": "active"
         }
       }
     },
@@ -66,7 +69,7 @@
       "anonymizeIp": false
     },
     "html5shiv": {
-      "status": true
+      "status": false
     }
   }
 }
