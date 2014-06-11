@@ -58,9 +58,9 @@
       }
     },
     "piwik": {
-      "status": true,
-      "baseUrl": "//piwik.tsys.no/",
-      "siteId": 6
+      "status": false,
+      "baseUrl": "//piwik.example.com/",
+      "siteId": 1
     },
     "phperror": true,
     "analytics": {
