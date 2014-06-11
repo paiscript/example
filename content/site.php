@@ -48,7 +48,7 @@
     </div>
   	
     <div class="container" id="content">
-      <?php pai_content('page')?>
+      <?php pai_box('page') ?>
     </div>
     
     <div id="footer">
