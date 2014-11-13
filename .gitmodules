@@ -8,7 +8,7 @@
 	path = pai_plugins/html5shiv
 	url = git@github.com:paiscript/plugin-html5shiv.git
 [submodule "pai_plugins/locale"]
-	path = pai_plugins/locale
+	path = pai_plugins/local
 	url = git@github.com:paiscript/plugin-locale.git
 [submodule "pai_plugins/menu"]
 	path = pai_plugins/menu
